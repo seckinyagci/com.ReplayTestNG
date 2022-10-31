@@ -1,4 +1,4 @@
-package Tag01_Notations;
+package tests.Tag01_Notations;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

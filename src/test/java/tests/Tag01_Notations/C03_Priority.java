@@ -1,4 +1,4 @@
-package Tag01_Notations;
+package tests.Tag01_Notations;
 
 import org.testng.annotations.Test;
 import utilities.TestBase;
