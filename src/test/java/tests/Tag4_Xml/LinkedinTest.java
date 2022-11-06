@@ -30,5 +30,6 @@ public class LinkedinTest {
     public void test03() {
         linkedinPage.girisButonu.click();
         Section section=new Section();
+        section.clear();
     }
 }
