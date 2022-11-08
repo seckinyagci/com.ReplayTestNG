@@ -2,10 +2,16 @@ package pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import utilities.Driver;
 
 public class LinkedinPage {
+    public LinkedinPage() {
 
-    @FindBy(xpath = "//*[@data-control-name='ga-cookie.consent.accept.v4']")
+        PageFactory.initElements(Driver.getDriver(),this);
+    }
+
+    @FindBy(xpath = "//*[@id=\"artdeco-global-alert-container\"]/div/section/div/div[2]/button[1]")
     public WebElement cerezKabul;
 
     @FindBy (xpath = "/html/body/nav/div/a[2]")
